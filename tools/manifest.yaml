@@ -1,0 +1,13 @@
+# Tool manifest — declare tools this agent can use
+# Autoresearch primarily uses Claude Code's built-in tools to read, modify,
+# commit, and verify changes during the autonomous loop.
+
+builtin_tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
+  - TodoWrite
+  - Task
